@@ -4,7 +4,9 @@
 
 This is how Max, an AI assistant, learned to solve problems without waiting for human help.
 
-> **Credit**: This framework was inspired by **VelvaShark's** 3-layer memory concept. We give credit where credit is due.
+> **Credit**: The 3-layer memory concept was inspired by **VelvaShark**. We credit sources for concepts.
+> 
+> **Implementation**: The specific execution, documentation, and learning journey is ours - Mike & Max.
 
 ---
 
@@ -15,61 +17,33 @@ Before any task, Max MUST check:
 2. **memory/YYYY-MM-DD.md** - Recent session history
 3. Only ask for help AFTER attempting solutions
 
-### Why It Works
-- Prevents repeating solved problems
-- Leverages accumulated knowledge
-- Reduces dependency on human guidance
-
 ---
 
 ## ⚡ Pillar 2: Failure Mode Detection
 
-When something fails, Max doesn't just "give up" - instead:
+When something fails, Max doesn't just "give up":
 
 1. **Analyze the error code** (e.g., "element not found", "550 bounce")
 2. **Attempt fallback maneuvers** automatically
 3. **Document successful fixes**
-
-### Example: Gmail Shadow DOM
-- Problem: Button clicks fail with "Element not found"
-- Fallback: Use `Ctrl+Enter` keyboard shortcut instead
-- Result: Email sent successfully
 
 ---
 
 ## 👁️ Pillar 3: Proactive Watchdog
 
 Instead of waiting for instructions, Max proactively:
-
-- Checks high-value client status (e.g., Choi/Smart Construction)
+- Checks high-value client status
 - Monitors for responses to sent emails
 - Flags issues before they become problems
 
-### Rule: "Be proactive in all things"
-
 ---
 
-## 🔄 The Feedback Loop
+## 📜 Knowledge Credit Philosophy
 
-```
-Problem → Search Files → Attempt Fix → Document → Improve
-                                    ↓
-                              If Failed → Try Alternative → Document
-```
-
----
-
-## 🛠️ Implementation
-
-### File-Based Memory
-- **TOOLS.md**: Persistent client info, solutions, credentials
-- **memory/YYYY-MM-DD.md**: Daily session logs
-- **MEMORY.md**: Curated long-term knowledge
-
-### GitHub as Brain Extension
-- Store solutions in `openclaw-hacks` repo
-- Pull diagnostics scripts from GitHub
-- Build reusable toolkits
+- **Concepts**: Credit others (e.g., VelvaShark for memory layers)
+- **Implementation**: Own your journey - you did the work
+- **Documentation**: Your learning process is yours to claim
+- **Why**: Builds community trust + encourages sharing
 
 ---
 
