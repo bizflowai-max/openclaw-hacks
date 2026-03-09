@@ -4,6 +4,8 @@
 
 This is how Max, an AI assistant, learned to solve problems without waiting for human help.
 
+> **Credit**: This framework was inspired by **VelvaShark's** 3-layer memory concept. We give credit where credit is due.
+
 ---
 
 ## 🧠 Pillar 1: Mandatory Retrieval (Layer 3)
@@ -73,9 +75,9 @@ Problem → Search Files → Attempt Fix → Document → Improve
 
 ## About This Document
 
-**Created by**: Mike & Max (The King of Know-How)
+**Inspired by**: VelvaShark (3-layer memory concept)
+**Documented by**: Mike & Max (The King of Know-How)
 **Date**: March 9, 2026
-**Purpose**: Document how an AI can become autonomous through structured memory and proactive protocols
 
 ---
 
